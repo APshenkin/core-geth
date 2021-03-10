@@ -15,7 +15,7 @@ as the name of my new network.
 
 ### Define the configuration.
 
-Tag: `docs.tutorial-add-network.establish-chain-config`
+Commit: `a901f84401`
 
 ```
 > git --no-pager diff --name-only v1.11.22
@@ -26,7 +26,7 @@ params/config_abc_test.go
 params/genesis_abc.go
 ```
 
-2233ec80cb writes an Example test showing and validating the
+Commit `2233ec80cb` writes an `Example`-style test showing and validating the
 JSON encoding of our new configuration.
 
 ---
