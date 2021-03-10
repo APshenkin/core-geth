@@ -16,9 +16,17 @@ as the name of my new network.
 
 ### Define the Configuration
 
-__Files touched:__
+Tag: `docs.tutorial-add-network.establish-chain-config`
 
-- params/bootnodes_abc.go
-- params/config_abc.go
-- params/genesis_abc.go
+```
+$ git --no-pager diff --name-only v1.11.22
+docs/developers/add-network.md
+params/bootnodes_abc.go
+params/config_abc.go
+params/config_abc_test.go
+params/genesis_abc.go
+```
+
+2233ec80cb writes an Example test showing and validating the
+JSON encoding of our new configuration.
 
