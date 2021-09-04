@@ -704,7 +704,7 @@ func (s *PublicBlockChainAPI) GetUncleByBlockHashAndIndex(ctx context.Context, b
 			return nil, nil
 		}
 		block = types.NewBlockWithHeader(uncles[index])
-		return s.rpcMarshalBlock(ctx, block, false, false)
+		return s.rpcMarshalBlock(ctx, block, true, false)
 	}
 	return nil, err
 }
